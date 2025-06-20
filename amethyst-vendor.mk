@@ -2781,7 +2781,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.zsl.sr \
     com.xiaomi.camdfx \
     ese_weaver_thales \
-    consumerir.qcom \
     displayfeature.default \
     fingerprint.fpc_fod.default \
     fingerprint.goodix_fod.default \
