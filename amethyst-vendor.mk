@@ -866,14 +866,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/odm/etc/sensors/config/sx937x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sx937x_0.json \
     vendor/xiaomi/amethyst/proprietary/odm/etc/sensors/config/sx937x_reg_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sx937x_reg_0.json \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-boost.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-boost.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-camera.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cclassvideo.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-charge.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-charge.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-chg-only.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-class0.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-highfps.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-mgame.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-normal.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-huanji.conf \
@@ -889,7 +886,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-tgame.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/thermalbreakboostconfig.xml \
     vendor/xiaomi/amethyst/proprietary/odm/etc/touch/gameturbotool.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool.json \
     vendor/xiaomi/amethyst/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
     vendor/xiaomi/amethyst/proprietary/odm/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/0_click_P_RTP.bin \
