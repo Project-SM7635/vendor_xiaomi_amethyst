@@ -873,75 +873,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-charge.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-charge.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-chg-only.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-class0.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-4k.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-camera.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-cclassvideo.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-cgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-chg-only.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-class0.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-highfps.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-hp-mgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-hp-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-huanji.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-mgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-navigation.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-nolimits.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-per-class0.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-per-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-per-video.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-phone.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-tgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-video.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-demo-ind-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-demo-ind-videochat.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-4k.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-camera.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-cclassvideo.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-cgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-chg-only.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-class0.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-highfps.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-hp-mgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-hp-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-huanji.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-mgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-navigation.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-nolimits.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-per-class0.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-per-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-per-video.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-phone.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-tgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-video.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-gl-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-videochat.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-highfps.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-mgame.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-normal.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-huanji.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-4k.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-camera.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-cclassvideo.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-cgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-chg-only.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-class0.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-highfps.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-hp-mgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-hp-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-huanji.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-mgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-navigation.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-nolimits.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-per-class0.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-per-normal.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-per-video.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-phone.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-tgame.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-video.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-in-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-in-videochat.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-map-global.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-map-global.conf \
-    vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-map-india.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-map-india.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-mgame.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-navigation.conf \
     vendor/xiaomi/amethyst/proprietary/odm/etc/thermal-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-nolimits.conf \
@@ -1409,7 +1344,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/init/init.qlm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qlm-service.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
@@ -1423,7 +1357,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/qesdk-secmanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-secmanager.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
@@ -1436,7 +1369,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/vendor.qsap.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.sensors.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
@@ -1476,20 +1408,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/PreKillFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PreKillFeature.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/PrefAppsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PrefAppsFeature.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/ProCompFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/ProCompFeature.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/QAPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QAPE.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/QGPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPE.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/QGPEActionMap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPEActionMap.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/SilkyScrollsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/SilkyScrollsFeature.xml \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/prekill/prekill_2GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_2GB.data \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/lm/sPLHFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/sPLHFeature.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/mem_logger_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mem_logger_config.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
@@ -1529,7 +1447,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/qcril_database/upgrade/other/0013_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0013_version_update_ecc_table.sql \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/qcril_database/upgrade/other/0014_version_update_modules.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0014_version_update_modules.sql \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/qlm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qlm_config.xml \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
@@ -1549,7 +1466,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/seccomp_policy/qesdksec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdksec.policy \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/seccomp_policy/qsap_dcfd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_dcfd.policy \
-    vendor/xiaomi/amethyst/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/seccomp_policy/qsap_sensors.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_sensors.policy \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/seccomp_policy/qsap_voiceui.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_voiceui.policy \
     vendor/xiaomi/amethyst/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
@@ -1910,7 +1826,6 @@ PRODUCT_PACKAGES += \
     libWlanServiceJni \
     libXMFaceFocus \
     lib_misound_asc \
-    libadaptlaunch \
     libadm \
     libadreno_app_profiles \
     libadreno_compiler_cl \
@@ -1919,9 +1834,6 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libagm \
     libagmmixer \
-    libaodoptfeature \
-    libapengine \
-    libappclassifier \
     libar-acdb \
     libar-gpr \
     libar-gsl \
@@ -2077,7 +1989,6 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    liblightninglaunches \
     liblistensoundmodel2vendor \
     libllvm-glnext \
     libllvm-qcom \
@@ -2112,10 +2023,7 @@ PRODUCT_PACKAGES += \
     libmcs \
     libmdmdetect \
     libmdsprpc \
-    libmemperfd \
     libmemutils \
-    libmeters-ns \
-    libmeters \
     libmialgo \
     libmialgo_ai_vision \
     libmialgo_globalsaliency \
@@ -2184,16 +2092,8 @@ PRODUCT_PACKAGES += \
     libpalclient \
     libpdmapper \
     libpdnotifier \
-    libperfioctl \
     libperipheral_client \
     libpostprocinfo \
-    libpowercore \
-    libprefapps \
-    libprekill \
-    libprocomp \
-    libpsmoptfeature \
-    libq-perflog \
-    libqapesdk \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -2270,8 +2170,6 @@ PRODUCT_PACKAGES += \
     libqsocket \
     libqspm-mem-utils-vendor \
     libqti-qesdk-secure \
-    libqti-util \
-    libqti-utils \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
@@ -2304,9 +2202,7 @@ PRODUCT_PACKAGES += \
     libshadowhook \
     libshsc \
     libsi \
-    libsilkyscrolls \
     libsimulation \
-    libskewknob \
     libslimclient \
     libsmemlog \
     libsn220u_fw \
@@ -2327,7 +2223,6 @@ PRODUCT_PACKAGES += \
     libspl \
     libssc_default_listener \
     libssd \
-    libstandbyfeature \
     libstnfc-auth \
     libstnfc-streset \
     libsubsystem_control \
@@ -2353,7 +2248,6 @@ PRODUCT_PACKAGES += \
     libultrahdr_prebuilt \
     libultrasound_notify \
     libvideoBokeh \
-    libvideooptfeature \
     libvideotxr \
     libvideoutils \
     libvmfilexfer \
@@ -2485,8 +2379,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
     vendor.qti.hardware.pal@1.0-impl \
-    vendor.qti.hardware.perf2-V1-ndk \
-    vendor.qti.hardware.power.powermodule-V1-ndk \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccsyshal@1.2_vendor \
@@ -2564,7 +2456,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.1 \
     vendor.qti.latency@2.2 \
     vendor.qti.latencyaidlservice-V1-ndk \
-    vendor.qti.memory.pasrmanager-V1-ndk \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-halimpl \
     vendor.qti.qesdhal-impl \
@@ -2956,8 +2847,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.connectionaidl.xml \
     vendor.qti.hardware.data.iwlandata.xml \
     vendor.qti.hardware.display.composer-service_amethyst.xml \
-    vendor.qti.hardware.perf2.xml \
-    vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
     vendor.qti.hardware.radio.am.xml \
     vendor.qti.hardware.radio.ims.xml \
@@ -3019,7 +2908,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.display.color-service \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.sensorscalibrate-service \
     vendor.qti.hardware.soter-service \
@@ -3053,13 +2941,10 @@ PRODUCT_PACKAGES += \
     pnscr-v5 \
     port-bridge \
     power_off_alarm \
-    poweropt-service \
     ppd \
     qcc-vendor \
     qdcmss \
-    qesdk-manager \
     qesdk-secmanager \
-    qlm-service \
     qmi_test_mt_client_init_instance \
     qmipriod \
     qms \
@@ -3067,7 +2952,6 @@ PRODUCT_PACKAGES += \
     qrtr-lookup \
     qrtr-ns \
     qsap_dcfd \
-    qsap_qapeservice \
     qsap_sensors \
     qsap_voiceui \
     qseecomd \
